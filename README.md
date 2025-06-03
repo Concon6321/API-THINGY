@@ -96,10 +96,7 @@ client = ConnorsPythonMenu()
 pet = client.pet.create(
     name="doggie",
     photo_urls=["string"],
-    category={
-        "id": 1,
-        "name": "Dogs",
-    },
+    category={},
 )
 print(pet.category)
 ```
